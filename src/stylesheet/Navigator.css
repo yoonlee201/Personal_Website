@@ -1,36 +1,71 @@
-a:link, a:visited, a:hover, a:active {
+/*img{*/
+/*    width: 100%;*/
+/*    height:auto;*/
+/*    max-width: 800px;*/
+/*}*/
+body {
+    overflow-x: hidden;
+    /* Prevent horizontal scrolling */
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
     text-decoration: none;
 }
 
-.main-home-image {
+.home {
+    background-color: #232442;
+    width: 100vw;
+    height: 100vh;
+}
+
+.home,
+.home>.main-home-image {
     position: absolute;
     z-index: 1 !important;
-    width: 100vw;
-
-    left: 0;
     top: 0;
-
 }
-.MenuBar{
+
+.home {
+    left: 0;
+}
+
+.main-home-image {
+    left: -5%;
+    width: 110%;
+    height: auto;
+    opacity: 0.5;
+}
+
+.MenuBar {
     position: relative;
     z-index: 10 !important;
-    background-color: rgba(0,0,0,0.75);
+    background-color: rgba(0, 0, 0, 0.75);
     height: 10vh;
 
     /*height: 100px;*/
-/*    absolute or relative size? */
+    /*    absolute or relative size? */
 }
-.MenuBar>span, .MenuBar>a {
+
+.MenuBar>span,
+.MenuBar>a {
     position: relative;
     padding: 5px;
     z-index: 10 !important;
 }
-.Menu{
+
+.Menu {
     color: white;
 }
-.Menu:hover {
-    color: rgba(250, 250, 250, 0.5);
+
+.Menu>img {
+    height: 30%;
+    width: auto;
 }
 
-
-
+.Menu>.logo:hover,
+.Menu:hover {
+    opacity: 0.5;
+}

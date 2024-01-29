@@ -14,15 +14,18 @@ function Navigator() {
                 <Link className="Menu" to="/"> portfolio </Link>
                 <Link className="Menu" to="/"> contact </Link>
                 <Link className="Menu"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      to="https://www.linkedin.com/in/yoonje-lee-0573a4214/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    to="https://www.linkedin.com/in/yoonje-lee-0573a4214/"
                 > linkedin </Link>
                 <Link className="Menu"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      to="https://www.linkedin.com/in/yoonje-lee-0573a4214/"
-                      > github </Link>
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    to="https://github.com/yoonlee201"
+                >
+                    <img className="logo" src="/github-mark-white.svg" alt="github logo" />
+                    {/*<object data="../image/github-mark-white.svg"> </object>*/}
+                </Link>
             </div>
         </React.Fragment>
     );
