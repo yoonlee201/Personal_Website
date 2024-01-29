@@ -1,0 +1,45 @@
+
+
+
+
+@font-face { font-family: College; src: url('../../public/font/college/college.ttf'); }
+@font-face { font-family: CollegeBold; src: url('../../public/font/college/collegeb.ttf'); }
+
+body {
+    overflow-x: hidden;
+    /* Prevent horizontal scrolling */
+}
+
+.home {
+    width: 100vw;
+    height: 100vh;
+    background-color: #689eca;
+}
+
+.home,
+.home>* {
+    position: absolute;
+    z-index: 1 !important;
+    top: 0;
+}
+
+.home {
+    left: 0;
+}
+
+.main-home-image {
+    width: 100%;
+    /*height: auto;*/
+    /*top: -500px;*/
+
+}
+
+.name {
+    font-family: College, serif;
+    font-size: 6em;
+    /*font-size: 100px;*/
+    color: white;
+
+    top: 50%;
+    right: 10%;
+}

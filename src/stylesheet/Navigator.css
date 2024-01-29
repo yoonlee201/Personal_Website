@@ -3,10 +3,8 @@
 /*    height:auto;*/
 /*    max-width: 800px;*/
 /*}*/
-body {
-    overflow-x: hidden;
-    /* Prevent horizontal scrolling */
-}
+
+
 
 a:link,
 a:visited,
@@ -15,53 +13,50 @@ a:active {
     text-decoration: none;
 }
 
-.home {
-    background-color: #232442;
-    width: 100vw;
-    height: 100vh;
-}
-
-.home,
-.home>.main-home-image {
-    position: absolute;
-    z-index: 1 !important;
-    top: 0;
-}
-
-.home {
-    left: 0;
-}
-
-.main-home-image {
-    left: -5%;
-    width: 110%;
-    height: auto;
-    opacity: 0.5;
-}
-
-.MenuBar {
+.NavBar {
     position: relative;
     z-index: 10 !important;
     background-color: rgba(0, 0, 0, 0.75);
     height: 10vh;
-
-    /*height: 100px;*/
-    /*    absolute or relative size? */
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.MenuBar>span,
-.MenuBar>a {
+.MenuBar{
     position: relative;
-    padding: 5px;
+    margin-right: 30px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: right;
+}
+
+.NavBar>a, .MenuBar>a {
+    position: relative;
+    padding: 10px;
     z-index: 10 !important;
 }
 
 .Menu {
     color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.Menu.link-to-home{
+    font-family: CollegeBold, serif;
+    font-size: 45px;
+    margin-left: 30px;
+    /*font-size: 45px;*/
 }
 
 .Menu>img {
-    height: 30%;
+    height: 25px;
     width: auto;
 }
 
@@ -69,3 +64,4 @@ a:active {
 .Menu:hover {
     opacity: 0.5;
 }
+
