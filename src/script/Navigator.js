@@ -19,16 +19,16 @@ function Navigator() {
                         rel="noopener noreferrer"
                         to="https://www.linkedin.com/in/yoonje-lee-0573a4214/"
                     > <img className="logo linkedin"
-                           src="/img/LI-In-Bug.png"
-                           alt="Linkin logo" />
+                        src="/img/LI-In-Bug.png"
+                        alt="Linkin logo" />
                     </Link>
                     <Link className="Menu menu-logo"
                         target="_blank"
                         rel="noopener noreferrer"
                         to="https://github.com/yoonlee201"
                     > <img className="logo"
-                           src="/img/github-mark-white.svg"
-                           alt="github logo" />
+                        src="/img/github-mark-white.svg"
+                        alt="github logo" />
                     </Link>
                 </div>
             </div>
