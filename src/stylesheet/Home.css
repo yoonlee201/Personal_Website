@@ -13,10 +13,9 @@ body {
     /* Prevent horizontal scrolling */
 }
 
-.home {
+.home{
     width: 100vw;
     height: 100vh;
-    background-color: #689eca;
     position: absolute;
     z-index: 2 !important;
     top: 0;
@@ -61,7 +60,10 @@ body {
     top: 58%;
     right: 10%;
 }
-
+/* .timeline, .contact */
+html {
+    background-color: #e7e0dc;
+}
 .main-home-brief-introduction {
     position: relative;
     width: 100vw;
