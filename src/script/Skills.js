@@ -16,7 +16,7 @@ function Skills() {
         { type: 'Java', image: "img/java-14.svg" },
         { type: 'Python', image: "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" },
     ];
-    ;
+
     return (
         <React.Fragment>
             <div id={"skills"}>
