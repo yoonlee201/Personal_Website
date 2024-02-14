@@ -10,7 +10,15 @@ function About() {
                         <WindowProfile image='/img/YJ-NewYear-2024.jpeg'/>
                         <div className={'about-me-container'}>
                             <h1 className={'about-me-title'}>ABOUT ME</h1>
-                            <p>Hi, my name is Yoonje Lee. I am a Junior studying computer science at Virginia Tech. </p>
+                            <p>
+                                Hi, I’m Yoonje Lee, a junior at Virginia Tech, from South Korea.
+                                At Virginia Tech, I am majoring in Computer Science and minoring in Human-Computer Interaction,
+                                combining a devotion to computing with artistic flair. I have a great passion for full-stack and software engineering
+                                and have a deep understanding of HTML/CSS/JS, React.js/Node.js, and MongoDB, but not limited to them only.
+                                Besides Computer Science, I enjoy baking in my free time and challenging myself with crocheting.
+                                My goal is to create a mini scarf by October. I am an ambitious learner who enjoys technological challenges,
+                                having learning opportunities, and doing them with passion.
+                            </p>
                         </div>
                     </div>
                 </div>

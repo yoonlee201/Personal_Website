@@ -6,15 +6,20 @@ function Contact() {
     return (
         <React.Fragment>
             <div className="contact" id="contact">
+                <h1 className={'section-title'}>Contact Me</h1>
                 <form>
-                    <label for="name">Name</label><br />
-                    <input type="text" id="name" name="name" /><br />
-                    <label for="email">Email</label><br />
-                    <input type="text" id="email" name="email" /><br /><br />
-                    <label for="message">Message</label><br />
+                    <label>Name<br />
+                    <input type="text" id="name"  /><br />
+                    </label>
+                    <label >Email<br />
+                    <input type="text" id="email" /><br /><br />
+                    </label>
+                    <label >Message<br />
                     <input type="text" id="message" name="message" /><br /><br />
-                    <input type="submit" value="Contact Me!"></input>
+                    </label>
+
                 </form>
+                <button >Submit</button>
             </div>
         </React.Fragment>
     );

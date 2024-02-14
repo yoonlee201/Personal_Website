@@ -1,8 +1,10 @@
 import React, {Fragment} from "react";
 import '../stylesheet/Home.css'
 import About from "./About";
-import Timeline from "./Timeline";
+import Experiences from "./Experiences";
+import Skills from "./Skills";
 import Contact from "./Contact";
+import Education from "./Education";
 function Home() {
     return (
         <Fragment>
@@ -14,7 +16,9 @@ function Home() {
                 </div>
                 <h1 className={'name'} align="right">Yoonje<br />Lee</h1>
                 <About />
-                <Timeline />
+                <Experiences />
+                <Skills />
+                <Education/>
                 <Contact />
             </div>
         </Fragment>

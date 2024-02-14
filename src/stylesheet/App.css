@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+#skills, #experiences, #education, #contact{
+  position: relative;
+  width: calc(100% * 1250/1920);
+  height: auto;
+  left: 50%;
+  transform: translate(-50%, 0);
+}

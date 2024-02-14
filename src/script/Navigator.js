@@ -6,11 +6,12 @@ function Navigator() {
     return (
         <React.Fragment>
             <div className="NavBar">
-                
-                <NavButton id="home" button="YL" className="Menu link-to-home"/>
                 <div className="MenuBar">
-                    <NavButton className="Menu" id="about" button="about"/>
-                    <NavButton className="Menu" id="timeline" button="experiences"/>
+                    <NavButton className="Menu" id="home" button="home"/>
+                    <NavButton className="Menu" id="experiences" button="projects"/>
+                    <NavButton className="Menu" id="skills" button="skills"/>
+                    <NavButton className="Menu" id="experiences" button="experiences"/>
+                    <NavButton className="Menu" id="education" button="education"/>
                     <NavButton className="Menu" id="contact" button="contact"/>
                     <Link className="Menu" to="/">CV</Link>
                     <Link className="Menu menu-logo"
