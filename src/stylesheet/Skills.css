@@ -1,0 +1,42 @@
+:root {
+    --skill-container-height: 120px;
+}
+.skill-set{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 0.5rem
+
+}
+.skill-container{
+        height: var(--skill-container-height);
+        width: auto;
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 0.5rem
+}
+.skill-title{
+    margin: 0;
+    padding: 0;
+}
+.skill-image{
+    height: 60%;
+    width: auto;
+    padding: 5px;
+}
+/*.MongoDB-logo{*/
+/*    background-color: black;*/
+/*    height: 50%;*/
+/*    width: calc( var(--skill-container-height) / 2);*/
+/*    border-radius: 50%;*/
+/*    margin: 10px;*/
+
+
+/*}*/
