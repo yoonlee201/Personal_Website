@@ -23,7 +23,7 @@ function Contact() {
 
                     <button className="btn btn-primary send-button" id="submit" type="submit">
                         <div className="alt-send-button">
-                            <FontAwesomeIcon class="btn-icon" icon={faPaperPlane} />
+                            <FontAwesomeIcon className="btn-icon" icon={faPaperPlane} />
                             {/*<FontAwesomeIcon icon={faPaperPlane} style={{ color: "#FFD43B" }} />*/}
                             <span className="send-text">SEND</span>
                         </div>

@@ -1,0 +1,83 @@
+
+.about {
+    width: 100%;
+    /*height: 600px;*/
+    box-shadow: inset 0 8px 6px -4px #848e9a;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.about-container {
+    height: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    gap: 1em;
+}
+
+.about-objective{
+    width: calc(100% - 350px);
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+
+.about-profile {
+    z-index: 4;
+    width: auto;
+
+    /*flex-basis: 150px;*/
+    flex-grow: 1;
+}
+
+.window-back {
+    width: auto;
+    height: 450px;
+    /*top: 50%;*/
+    /*transform: translate(0, -50%);*/
+
+    fill: #e1dbd1;
+
+    filter: url(#inset-shadow);
+    z-index: 4 !important;
+}
+
+.shadow {
+    width: 0;
+    height:0;
+}
+
+.about-profile-image {
+    height: 400px;
+    width: auto;
+
+    /*left: 50%;*/
+    /*top: 50%;*/
+    /*transform: translate(-44.3%, -44%);*/
+
+    left: 50%;
+    transform: translate(-44.3%, 5.5%);
+
+    z-index: 5 !important;
+    clip-path: url(#myClip);
+}
+
+.window-front,
+.window-front-inner {
+    position: absolute;
+
+    height: 380px;
+    width: auto;
+
+    left: 50%;
+    transform: translate(-50%, 3%);
+}
+
+.window-front-inner {
+    fill: #dcd1c6;
+    filter: url(#image-shadow);
+    z-index: 6 !important;
+}
+.window-front {
+    filter: drop-shadow(0 0 0.75rem rgb(0 0 0 / 0.75));
+    z-index: 5 !important;
+}

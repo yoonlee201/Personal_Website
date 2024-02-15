@@ -1,5 +1,7 @@
 import React from "react";
+
 import '../stylesheet/Skills.css'
+import '../stylesheet/App.css'
 
 
 function Skills() {
@@ -19,12 +21,12 @@ function Skills() {
 
     return (
         <React.Fragment>
-            <section id={"skills"}>
+            <section className={"skills relative"} id={"skills"}>
                 <h1 className={'section-title'}>My Skills</h1>
-                <div className={"skill-set"}>
+                <div className={"skill-set flex flex-wrap justify-content-center"}>
                     {
                         skills.map(skill => (
-                            <div key={skill.type} className="skill-container">
+                            <div key={skill.type} className="skill-container flex flex-column text-align-center justify-content-center">
                                 <img src={skill.image} className={`skill-image ${skill.type}-logo`}  alt={skill.type} />
                                 <p className={`skill-title`}>{skill.type}</p>
                             </div>

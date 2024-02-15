@@ -1,165 +1,24 @@
-@font-face {
-    font-family: College;
-    src: url('../../public/font/college/college.ttf');
-}
 
-@font-face {
-    font-family: CollegeBold;
-    src: url('../../public/font/college/collegeb.ttf');
-}
-
-body {
-    overflow-x: hidden;
-    /* Prevent horizontal scrolling */
-}
 
 .home{
     width: 100vw;
     height: 100vh;
-    position: absolute;
-    z-index: 2 !important;
-    top: 0;
     border-bottom: 2px solid rgba(46, 46, 56, 0.43);
     box-shadow: 0px 0px 10px 10px rgba(22, 26, 35, 0.43);
 }
 
-.home>* {
-    position: relative;
-    z-index: 2 !important;
-}
-
-.home {
-    left: 0;
-}
-
-.main-home-banner {
-    width: 100vw;
-    height: 100vh;
-    /*box-shadow: 0 5px 10px grey;*/
-    /*box-shadow: inset 0 0 40px 40px #000000;*/
-}
-
-.main-home-banner-image {
-    position: absolute;
-    clip: rect(0px, 100vw, 100vh, 0px);
-    height: 100vh;
-    width: 100vw;
-    /*height: auto;*/
-    /*top: -500px;*/
+.home-banner,
+.home-banner-image {
+    height: 100%;
+    width: 100%;
 }
 
 
-.name {
-    position: absolute;
-    font-family: College, serif;
+.home-name {
     font-size: 6em;
-    /*font-size: 100px;*/
     color: white;
     z-index: 5 !important;
 
     top: 58%;
     right: 10%;
-}
-/* .timeline, .contact */
-html {
-    background-color: #e7e0dc;
-}
-.main-home-brief-introduction {
-    position: relative;
-    width: 100vw;
-    height: 600px;
-    /*background-color: #fafafa;*/
-    background-color: #e7e0dc;
-    box-shadow: inset 0 8px 6px -4px #848e9a;
-
-    z-index: 1 !important;
-}
-
-.main-home-container {
-    position: relative;
-    width: calc(100% * 1250/1920);
-    /*width: 80%;*/
-    height: 100%;
-    left: 50%;
-    transform: translate(-50%, 0);
-    /*background-color: #689eca;*/
-}
-
-.main-home-profile {
-    position: absolute;
-    z-index: 4;
-    height: 100%;
-    width: auto;
-}
-
-.window-back {
-    position: relative;
-    width: auto;
-    height: 450px;
-    top: 50%;
-    transform: translate(0, -50%);
-
-    /*fill: #dcd1c6;*/
-    fill: #e1dbd1;
-
-    filter: url(#inset-shadow);
-    z-index: 4 !important;
-}
-
-.main-home-profile-image {
-    left: 50%;
-    top: 50%;
-    transform: translate(-44.3%, -44%);
-
-}
-
-.window-front,
-.window-front-inner {
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -46.5%);
-}
-
-
-.window-front-inner {
-    position: absolute;
-    height: 380px;
-    width: auto;
-
-    fill: #dcd1c6;
-    filter: url(#image-shadow);
-    z-index: 6 !important;
-}
-.window-front {
-    position: absolute;
-    height: 380px;
-    width: auto;
-
-    filter: drop-shadow(0 0 0.75rem rgb(0 0 0 / 0.75));
-    z-index: 5 !important;
-}
-
-.main-home-profile-image {
-    position: absolute;
-    height: 400px;
-    width: auto;
-
-    z-index: 5 !important;
-    clip-path: url(#myClip);
-}
-
-.about-me-container{
-    position: absolute;
-    /*background-color: grey;*/
-    width: 60%;
-    height:55%;
-    left: 40%;
-    top: 50%;
-    transform: translate(0, -50%);
-}
-
-.about-me-title{
-    font-family: College, serif;
-    position: relative;
-    z-index: 5 !important;
 }

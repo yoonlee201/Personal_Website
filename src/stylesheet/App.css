@@ -1,46 +1,107 @@
-.App {
+:root {
+  --skill-container-height: 120px;
+  --inner-container-size: calc(100% * 1250/1920);
+}
+
+html {
+  background-color: #e7e0dc;
+}
+
+body {
+  overflow-x: hidden;
+  /* Prevent horizontal scrolling */
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.text-align-center {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.justify-content-stretch {
+  justify-content: space-between;
+}
+.justify-content-end {
+  justify-content: flex-end;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.justify-content-center {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.inner-container {
+  width: var(--inner-container-size);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.my-0{
+  margin-top: 0;
+  margin-bottom: 0;
 }
-
 #skills, #experiences, #education, #contact{
   position: relative;
   width: calc(100% * 1250/1920);
   height: auto;
   left: 50%;
   transform: translate(-50%, 0);
+}
+
+@font-face {
+  font-family: College;
+  src: url('../../public/font/college/college.ttf');
+}
+
+@font-face {
+  font-family: CollegeBold;
+  src: url('../../public/font/college/collegeb.ttf');
+}
+
+/*@media screen and (max-device-width:700px){*/
+/*  div {*/
+/*    background-color: green;*/
+/*  }*/
+/*}*/
+/*@media screen and (min-device-width:701px){*/
+/*  div {*/
+/*    background-color: blue;*/
+/*  }*/
+/*}*/
+
+.college {
+  font-family: College, serif;
+}
+.college-bold {
+  font-family: CollegeBold, serif;
 }
