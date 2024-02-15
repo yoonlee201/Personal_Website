@@ -7,11 +7,11 @@ function Education() {
 
     return (
         <React.Fragment>
-            <div className="education" id="education">
+            <section className="education" id="education">
                 <h1 className={'section-title'}>Education</h1>
                 <div className="vertical-container">
                     <VerticalTimeline
-                        layout={'1-column-left'}>
+                        layout={'1-column-right'}>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--education"
                             date="2022 - present"
@@ -20,14 +20,12 @@ function Education() {
                         >
                             <h3 className="vertical-timeline-element-title">Virginia Tech</h3>
                             <h4 className="vertical-timeline-element-subtitle">B.S. Computer Science & HCI Minor</h4>
-                            {/*<p>*/}
                             <ul>
                                 <li>GPA: 3.98 out of 4.0</li>
                                 <li>President’s List (Fall 2022)</li>
                                 <li>Dean’s List (Spring 2023 & Fall 2023)</li>
                                 <li>Expected Graduation Date: 2025</li>
                             </ul>
-                            {/*</p>*/}
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--education"
@@ -46,7 +44,7 @@ function Education() {
                         </VerticalTimelineElement>
                     </VerticalTimeline>
                 </div>
-            </div>
+            </section>
         </React.Fragment>
     );
 }

@@ -7,7 +7,7 @@ function Experiences() {
 
     return (
         <React.Fragment>
-            <div className="experiences" id="experiences">
+            <section className="experiences" id="experiences">
                 <h1 className={'section-title'}>Experiences</h1>
                 <div className="vertical-container">
                     <VerticalTimeline
@@ -41,7 +41,7 @@ function Experiences() {
                         </VerticalTimelineElement>
                     </VerticalTimeline>
                 </div>
-            </div>
+            </section>
         </React.Fragment>
     );
 }

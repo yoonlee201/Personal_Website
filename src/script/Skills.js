@@ -19,7 +19,7 @@ function Skills() {
 
     return (
         <React.Fragment>
-            <div id={"skills"}>
+            <section id={"skills"}>
                 <h1 className={'section-title'}>My Skills</h1>
                 <div className={"skill-set"}>
                     {
@@ -31,7 +31,7 @@ function Skills() {
                         ))
                     }
                 </div>
-            </div>
+            </section>
         </React.Fragment>
     );
 }

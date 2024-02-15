@@ -8,7 +8,7 @@ import Education from "./Education";
 function Home() {
     return (
         <Fragment>
-            <div className={'home'} id="home">
+            <section className={'home'} id="home">
                 <div className='main-home-banner'>
                     <img className={'main-home-banner-image'} id="skyline-to-korea"
                         src="/img/Skyline-to-Korea-2023.jpeg"
@@ -16,11 +16,11 @@ function Home() {
                 </div>
                 <h1 className={'name'} align="right">Yoonje<br />Lee</h1>
                 <About />
-                <Experiences />
                 <Skills />
+                <Experiences />
                 <Education/>
                 <Contact />
-            </div>
+            </section>
         </Fragment>
     );
 }
